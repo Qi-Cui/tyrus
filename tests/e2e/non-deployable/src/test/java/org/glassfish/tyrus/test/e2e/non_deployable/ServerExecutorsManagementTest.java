@@ -82,6 +82,7 @@ public class ServerExecutorsManagementTest extends TestContainer {
 
                 } finally {
                     stopServer(server);
+                    Thread.sleep(100);
                 }
             }
 
